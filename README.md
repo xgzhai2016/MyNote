@@ -1,4 +1,2 @@
-function
-
-my java note
+linkedBlockingQueue 要比arrayBlockingQueue可伸缩性好
 
