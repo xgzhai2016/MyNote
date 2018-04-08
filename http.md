@@ -8,5 +8,5 @@ MIME：text/html\(html格式的文本\)   text/plain\(普通的ASCII文本\)  im
 
 
 
-
+URL: 有些需要用户密码认证，如ftp:user:pwd@//10.128.158.15/app\_class/conf.properties
 
