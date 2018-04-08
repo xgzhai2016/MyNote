@@ -10,5 +10,7 @@ MIME：text/html\(html格式的文本\)   text/plain\(普通的ASCII文本\)  im
 
 URL: 有些需要用户密码认证，如`ftp:user:pwd@//10.128.158.15/app_class/conf.properties`
 
+url编码：采用ASCII编码格式传输，就是将一些特殊的字符、中文  用%+两位16进制ASCII        eg：空格   -----》  %20
+
 
 
