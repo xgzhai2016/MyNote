@@ -4,5 +4,5 @@
 
 重排：当没有同步时，编译器、处理器以及运行时都可能对程序执行顺序进行一定的调整
 
-可见性：get/set方法都需要进行synchronized                           volatile
+可见性：get/set方法都需要进行synchronized                           volatile变量不会被缓存在寄存器，因此总是最新的
 
