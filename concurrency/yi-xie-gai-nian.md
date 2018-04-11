@@ -16,3 +16,5 @@ volatile变量不会被缓存在寄存器，因此总是最新的。轻量级的
 
 threadLocal：一般都是private static，ThreadLocal{ThreadLocalMap{entry},entry\[\]}，每个thread都维护了一个threadlocalmap映射表，key是threadLocal本身，value就是存储的object。entry是弱引用
 
+![](/assets/threadLocal.PNG)
+
