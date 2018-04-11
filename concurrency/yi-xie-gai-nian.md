@@ -14,5 +14,5 @@ volatile变量不会被缓存在寄存器，因此总是最新的。轻量级的
 
 线程封闭：将对象封装到线程中，这样就不用考虑对象是否是安全。JDBC
 
-threadLocal：一般都是private static，ThreadLocal{ThreadLocalMap{entry},entry\[\]}，每个thread都维护了一个threadlocalmap映射表，key是threadLocal本身，value就是存储的object。entry是若引用
+threadLocal：一般都是private static，ThreadLocal{ThreadLocalMap{entry},entry\[\]}，每个thread都维护了一个threadlocalmap映射表，key是threadLocal本身，value就是存储的object。entry是弱引用
 
