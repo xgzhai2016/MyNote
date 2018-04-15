@@ -30,8 +30,6 @@ http处理过程中的网络时延：
 + 持久连接：http1.0+ http事务结束后，对tcp连接持久化,不用每次建立连接。
 Connection:keep-alive,需要请求时带上它用于激活。
 http1.1用persisitent connection替代了keep,默认是持久化的，若不用持久化，需要标明Connection:close
-
-    
 + 管道化连接
 
 keep-alive 与哑代理，代理不认识keep-alive的含义，并且在client与server之间传输，但是当client再次与代理用这个ka连接发起请求时，会在client被挂起，直到client超时将其关闭。因此代理一般都会将connection忽略
