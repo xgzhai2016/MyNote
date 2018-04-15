@@ -27,7 +27,8 @@ http处理过程中的网络时延：
 提高http性能：
 + 并行连接：消耗内存，对带宽有要求
 + 持久连接：http1.0+ http事务结束后，对tcp连接持久化,不用每次建立连接。
-Connection:keep-alive,需要请求时带上它用于激活。http1.1
+Connection:keep-alive,需要请求时带上它用于激活。
+http1.1用persisitent connection替代了keep,默认是持久化的，若不用持久化，需要标明Connection:close
 
     
 + 管道化连接
