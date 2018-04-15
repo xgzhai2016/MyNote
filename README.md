@@ -1,8 +1,7 @@
 * gandy  
 - Gum
 + gandy
-
-                                with
+ with
 
 
 1. red
