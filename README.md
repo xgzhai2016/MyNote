@@ -13,9 +13,9 @@
 > 这是引用
 
 '这是单行代码java'
-    '''java
+    ```java
     public static void main(String[] args){
         int i =0;
     }
-    '''
+    ```
     > 这是引用
