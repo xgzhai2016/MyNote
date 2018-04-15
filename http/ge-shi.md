@@ -4,7 +4,9 @@
 
 request:
 
-Connection:closed     操作完成之后关闭这个持久连接 
+Connection:closed     操作完成之后关闭这个持久连接
+
+---
 
 ![](/assets/响应状态码.PNG)
 
