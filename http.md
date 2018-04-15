@@ -33,6 +33,6 @@ http1.1用persisitent connection替代了keep,默认是持久化的，若不用�
     
 + 管道化连接
 
-keep-alive 与哑代理，代理不认识keep-alive的含义，并且在client与server之间传输，但是当client再次与代理用这个连接发起请求时，会被代理忽略。
+keep-alive 与哑代理，代理不认识keep-alive的含义，并且在client与server之间传输，但是当client再次与代理用这个ka连接发起请求时，会被挂起。
 
 
