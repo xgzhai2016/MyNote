@@ -14,5 +14,6 @@
 
 \`这是单行代码java\`
     //代码
-    int i;
+    public static void main(String[] args){
+    
     > 这是引用
