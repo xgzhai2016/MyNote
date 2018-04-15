@@ -5,7 +5,7 @@
 
 1. red
 2. green
-<font face="微软雅黑" color="red" size="6">字体及字体颜色和大小</font>
+
 # 这是标题
 ## 这是二级标题
 **加粗**
