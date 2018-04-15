@@ -1,3 +1,4 @@
+
 Hypertext Transfer Protocol   超文本传输协议，应用层协议，基于文本，没有使用二进制格式
 
 过程：解析url，获取主机名\(dns转换为ip\)、port，与服务器建立tcp连接，发送请求报文、接受响应报文，关闭连接。
