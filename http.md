@@ -33,5 +33,6 @@ http1.1用persisitent connection替代了keep,默认是持久化的，若不用�
     
 + 管道化连接
 
+keep-alive 与哑代理
 
 
