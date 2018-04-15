@@ -1,2 +1,1 @@
-linkedBlockingQueue 要比arrayBlockingQueue可伸缩性好
-
+* gandy  
