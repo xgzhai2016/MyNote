@@ -15,6 +15,6 @@
 \`这是单行代码java\`
     //代码
     public static void main(String[] args){
-        int i =0
+        int i =0;
     }
     > 这是引用
